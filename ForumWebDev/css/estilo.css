@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+body{
+    background-color: #ececec;
+}
+
+
+.header{
+    background-color: #1be6c0;
+    border-bottom: 2px solid #308b7a;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+
+.header .right img{
+    width: 35px;
+    border: 2px solid white;    
+}
+
+.header i{
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.header input{
+    background-color: #ececec;
+    padding: 8px;
+    border:0px;
+    border-radius: 4px;
+}
+
+.logo{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.logo span{
+    font-weight: 800;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+
+.content{
+    padding:25px;
+    padding-top:100px;
+}
+
+.respondidos{
+    padding-top: 30px;
+}
+
+.content h1{
+    color: #324c5d;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content .card{
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.content .card .actions{
+    background-color: #dee2e5;
+    padding:10px;
+}
+
+.content .card .actions a{
+    color: #324c5d;
+    font-size: 14px;
+    margin-right: 15px;    
+}
+
+.content .card .info{
+    padding: 20px;
+}
+
+.content .card .info img{
+    width: 80px;
+    border:2px solid #405868;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.content .card .info h1,
+.content .card .info h2,
+.content .card .info p{
+    font-size: 14px;
+    color: #787878;
+    margin: 0;
+}
+
+.content .card .info h2{
+    color:#324c5d;
+}
+
+.content .card .info .mark{
+    background-color: #df494a;
+    color:white;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 10px;
+}
+
+.content .card .info .time{
+    background-color:white;
+    color:#324c5d;    
+}
+
+.center{
+    text-align: center;
+}
+
+.btnCarregar{
+    background-color: #1be6c0;
+    padding: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#cfe8e2;
+    border:1px solid  #308b7a;
+    border-radius: 1px;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    width: 100%;
+    color: white;
+    font-weight: 300;
+    background: #324c5d;
+    border:1px solid #253946;
+}
+
+.footer span{
+    font-weight: 800;
+}
+
+.footer .copyright{
+   color: #83918e;
+   font-size: 0.8em;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
