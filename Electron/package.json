@@ -1,0 +1,17 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "AUla-web-dev",
+  "main": "main/app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "johnLima",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
